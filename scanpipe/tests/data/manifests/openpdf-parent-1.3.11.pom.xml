@@ -81,7 +81,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <phase>process-classes</phase>
@@ -209,7 +209,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.8</version>
+                <version>1.7.0</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
@@ -248,12 +248,12 @@
             <plugin>
                 <groupId>eu.stamp-project</groupId>
                 <artifactId>pitmp-maven-plugin</artifactId>
-                <version>1.3.6</version>
+                <version>1.3.7</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.pitest</groupId>
                         <artifactId>pitest-junit5-plugin</artifactId>
-                        <version>0.7</version>
+                        <version>0.16</version>
                     </dependency>
                     <!--Need this because dep is optional and pitest can't find classes-->
                     <dependency>
@@ -301,7 +301,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.12.1</version>
+            <version>3.26.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
